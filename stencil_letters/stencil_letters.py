@@ -2,7 +2,7 @@
 from gimpfu import *
 
 #TODO: center letters, kinda finicky with letters like G
-#TODO: add a param to choose if conditionally remove letters (no need for I if we have E, P, Ns, etc etc)
+#TODO: add a param to choose if conditionally remove letters (no need for C if we have Q, O or Q etc etc)
 
 
 PPI = 300
