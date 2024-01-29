@@ -45,10 +45,7 @@ def stencil_letters(message):
         # image should be around 18in tall
         layer = pdb.gimp_text_layer_new(image, letter, 'Gunplay', 18*PPI, 0)
         image.add_layer(layer, 0)
-
-        print('layer height: {0}'.format(layer.height))
-        print('image height: {0}'.format(image.height))
-        print('\n\n\n\n')
+        pdb.gimp_text_layer_set_color(layer, 'black')
 
         width_diff = image.width - layer.width
         free_space_y = 900 # give or take, lol
